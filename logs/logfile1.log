@@ -1,0 +1,426 @@
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-13 23:13:51 [main] io.netty.channel.MultithreadEventLoopGroup (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 32
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:54) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:57) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:106) - -Dio.netty.noKeySetOptimization: false
+DEBUG 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:107) - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.internal.PlatformDependent$Mpsc (PlatformDependent.java:890) - org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c72f59f
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16e7dcfd
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d121db3
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3b07a0d6
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@11a9e7c8
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3901d134
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@14d3bc22
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12d4bf7e
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c1d9d4b
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7b227d8d
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7219ec67
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@45018215
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@65d6b83b
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@d706f19
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30b7c004
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79efed2d
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2928854b
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@27ae2fd0
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@29176cc1
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2f177a4b
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4278a03f
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@147ed70f
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@61dd025
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@124c278f
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15b204a1
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@77167fb7
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1fe20588
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ce139a4
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6973bf95
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2ddc8ecb
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@229d10bd
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@47542153
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12e61fe6
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ee955a8
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1677d1
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48fa0f47
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ac13091
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5e316c74
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d2a209c
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75329a49
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@161479c6
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4313f5bc
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7f010382
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e802ef9
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2b6faea6
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@778d1062
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@670002
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f0f1111
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c386c8
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56528192
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6e0dec4a
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@96def03
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ccddd20
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ed1993a
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f3f4916
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@794cb805
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4b5a5ed1
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@59d016c9
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cc2931c
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20d28811
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3967e60c
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@60d8c9b7
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48aaecc3
+TRACE 2020-03-13 23:13:51 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c0c77c7
+DEBUG 2020-03-13 23:13:51 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:79) - -Dio.netty.processId: 10944 (auto-detected)
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.NetUtil (NetUtil.java:139) - -Djava.net.preferIPv4Stack: false
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.NetUtil (NetUtil.java:140) - -Djava.net.preferIPv6Addresses: false
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.NetUtil (NetUtil.java:224) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.NetUtil$1 (NetUtil.java:289) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2020-03-13 23:13:51 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:101) - -Dio.netty.machineId: a8:5e:45:ff:fe:15:14:82 (auto-detected)
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-13 23:13:51 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:142) - -Dio.netty.allocator.numHeapArenas: 32
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:143) - -Dio.netty.allocator.numDirectArenas: 32
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:145) - -Dio.netty.allocator.pageSize: 8192
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:150) - -Dio.netty.allocator.maxOrder: 11
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:154) - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:155) - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:156) - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:159) - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:161) - -Dio.netty.allocator.useCacheForAllThreads: true
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:162) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:85) - -Dio.netty.allocator.type: pooled
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:94) - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2020-03-13 23:13:51 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:97) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-13 23:13:54 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-13 23:13:54 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-13 23:13:54 [main] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a079870
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:97) - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:98) - -Dio.netty.recycler.linkCapacity: 16
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:99) - -Dio.netty.recycler.ratio: 8
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-13 23:13:54 [nioEventLoopGroup-3-1] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@12b1bb55
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-13 23:15:10 [main] io.netty.channel.MultithreadEventLoopGroup (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 32
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:54) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:57) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:106) - -Dio.netty.noKeySetOptimization: false
+DEBUG 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:107) - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.internal.PlatformDependent$Mpsc (PlatformDependent.java:890) - org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c72f59f
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16e7dcfd
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d121db3
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3b07a0d6
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@11a9e7c8
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3901d134
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@14d3bc22
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12d4bf7e
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c1d9d4b
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7b227d8d
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7219ec67
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@45018215
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@65d6b83b
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@d706f19
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30b7c004
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79efed2d
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2928854b
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@27ae2fd0
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@29176cc1
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2f177a4b
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4278a03f
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@147ed70f
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@61dd025
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@124c278f
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15b204a1
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@77167fb7
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1fe20588
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ce139a4
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6973bf95
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2ddc8ecb
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@229d10bd
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@47542153
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12e61fe6
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ee955a8
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1677d1
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48fa0f47
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ac13091
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5e316c74
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d2a209c
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75329a49
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@161479c6
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4313f5bc
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7f010382
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e802ef9
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2b6faea6
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@778d1062
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@670002
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f0f1111
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c386c8
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56528192
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6e0dec4a
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@96def03
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ccddd20
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ed1993a
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f3f4916
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@794cb805
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4b5a5ed1
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@59d016c9
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cc2931c
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20d28811
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3967e60c
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@60d8c9b7
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48aaecc3
+TRACE 2020-03-13 23:15:10 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c0c77c7
+DEBUG 2020-03-13 23:15:10 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:79) - -Dio.netty.processId: 12940 (auto-detected)
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.NetUtil (NetUtil.java:139) - -Djava.net.preferIPv4Stack: false
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.NetUtil (NetUtil.java:140) - -Djava.net.preferIPv6Addresses: false
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.NetUtil (NetUtil.java:224) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.NetUtil$1 (NetUtil.java:289) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2020-03-13 23:15:10 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:101) - -Dio.netty.machineId: a8:5e:45:ff:fe:15:14:82 (auto-detected)
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-13 23:15:10 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:142) - -Dio.netty.allocator.numHeapArenas: 32
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:143) - -Dio.netty.allocator.numDirectArenas: 32
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:145) - -Dio.netty.allocator.pageSize: 8192
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:150) - -Dio.netty.allocator.maxOrder: 11
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:154) - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:155) - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:156) - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:159) - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:161) - -Dio.netty.allocator.useCacheForAllThreads: true
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:162) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:85) - -Dio.netty.allocator.type: pooled
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:94) - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2020-03-13 23:15:10 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:97) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-13 23:15:12 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-13 23:15:12 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-13 23:15:12 [main] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a079870
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:97) - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:98) - -Dio.netty.recycler.linkCapacity: 16
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:99) - -Dio.netty.recycler.ratio: 8
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-13 23:15:12 [nioEventLoopGroup-3-1] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44ebde87
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-16 20:15:33 [main] io.netty.channel.MultithreadEventLoopGroup (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 32
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:54) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.InternalThreadLocalMap (InternalThreadLocalMap.java:57) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:106) - -Dio.netty.noKeySetOptimization: false
+DEBUG 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:107) - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.internal.PlatformDependent$Mpsc (PlatformDependent.java:890) - org.jctools-core.MpscChunkedArrayQueue: available
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c72f59f
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16e7dcfd
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d121db3
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3b07a0d6
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@11a9e7c8
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3901d134
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@14d3bc22
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12d4bf7e
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c1d9d4b
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7b227d8d
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7219ec67
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@45018215
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@65d6b83b
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@d706f19
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30b7c004
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79efed2d
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2928854b
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@27ae2fd0
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@29176cc1
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2f177a4b
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4278a03f
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@147ed70f
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@61dd025
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@124c278f
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15b204a1
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@77167fb7
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1fe20588
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ce139a4
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6973bf95
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2ddc8ecb
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@229d10bd
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@47542153
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@12e61fe6
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ee955a8
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1677d1
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48fa0f47
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ac13091
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5e316c74
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d2a209c
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75329a49
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@161479c6
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4313f5bc
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7f010382
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e802ef9
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2b6faea6
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@778d1062
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@670002
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f0f1111
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c386c8
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56528192
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6e0dec4a
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@96def03
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ccddd20
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ed1993a
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f3f4916
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@794cb805
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4b5a5ed1
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@59d016c9
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cc2931c
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20d28811
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3967e60c
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@60d8c9b7
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@48aaecc3
+TRACE 2020-03-16 20:15:33 [main] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:266) - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c0c77c7
+DEBUG 2020-03-16 20:15:33 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:79) - -Dio.netty.processId: 12396 (auto-detected)
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.NetUtil (NetUtil.java:139) - -Djava.net.preferIPv4Stack: false
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.NetUtil (NetUtil.java:140) - -Djava.net.preferIPv6Addresses: false
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.NetUtil (NetUtil.java:224) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.NetUtil$1 (NetUtil.java:289) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG 2020-03-16 20:15:33 [main] io.netty.channel.DefaultChannelId (DefaultChannelId.java:101) - -Dio.netty.machineId: a8:5e:45:ff:fe:15:14:82 (auto-detected)
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-16 20:15:33 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:142) - -Dio.netty.allocator.numHeapArenas: 32
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:143) - -Dio.netty.allocator.numDirectArenas: 32
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:145) - -Dio.netty.allocator.pageSize: 8192
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:150) - -Dio.netty.allocator.maxOrder: 11
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:154) - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:155) - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:156) - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:159) - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:161) - -Dio.netty.allocator.useCacheForAllThreads: true
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:162) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:85) - -Dio.netty.allocator.type: pooled
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:94) - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG 2020-03-16 20:15:33 [main] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:97) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:51) - Using Log4J2 as the default logging framework
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:985) - Platform: Windows
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:395) - -Dio.netty.noUnsafe: false
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:851) - Java version: 8
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:120) - sun.misc.Unsafe.theUnsafe: available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:144) - sun.misc.Unsafe.copyMemory: available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:182) - java.nio.Buffer.address: available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:243) - direct buffer constructor: available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:313) - java.nio.Bits.unaligned: available, true
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:378) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:385) - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1028) - sun.misc.Unsafe: available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1147) - -Dio.netty.tmpdir: C:\Users\FLAMEX~1\AppData\Local\Temp (java.io.tmpdir)
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1226) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:173) - -Dio.netty.maxDirectMemory: 7621050368 bytes
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:180) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.CleanerJava6 (CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.internal.PlatformDependent (PlatformDependent.java:200) - -Dio.netty.noPreferDirect: false
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG 2020-03-16 20:15:37 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-16 20:15:37 [main] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-16 20:15:37 [main] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a079870
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:97) - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:98) - -Dio.netty.recycler.linkCapacity: 16
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.util.Recycler (Recycler.java:99) - -Dio.netty.recycler.ratio: 8
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:62) - -Dio.netty.buffer.checkAccessible: true
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.buffer.AbstractByteBuf (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkBounds: true
+DEBUG 2020-03-16 20:15:37 [nioEventLoopGroup-3-1] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory (ResourceLeakDetectorFactory.java:195) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b4ecec4
